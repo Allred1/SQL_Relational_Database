@@ -2,39 +2,34 @@
  
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This program was intended to learn how SQL Relational Databases work, and to get a better idea of how a database is set up, how tables are created and deleted, and how a user can interact with them. 
 
-{Provide a description of the software that you wrote and how it integrates with a SQL Relational Database. Describe how to use your program.}
+This simple program creates a database and allows the user to interact with it by creating tables, deleting tables, seeing all the tables, and seeing the contents in each one. 
 
-{Describe your purpose for writing this software.}
-
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running, a walkthrough of the code, and a view of how created the Relational Database.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+The purpose for writing this software was to understand how a database works and can be interacted with. 
 
 # Relational Database
 
-{Describe the relational database you are using.}
-
-{Describe the structure (tables) of the relational database that you created.}
+This program uses SQL relational database through sqlite3 library. 
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+Tools: 
+visual studio code
 
-{Describe the programming language that you used and any libraries.}
+Language / libraries:
+python
+sqlite3 
+
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [SQLite Tutorial](https://www.sqlitetutorial.net/)
+- [Sqlite3 - DB-API 2.0 interface for SQLite databases](https://docs.python.org/3.8/library/sqlite3.html)
+- [Tutorialspoint SQLite - Python](https://www.tutorialspoint.com/sqlite/sqlite_python.htm)
 
 # Future Work
 
-{Make a list of things that you need to fix, improve, and add in the future.}
-
-- Item 1
-- Item 2
-- Item 3
+- Add error catches
+- Create a gui
+- Allow user to interact with values in the tables
